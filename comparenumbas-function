@@ -1,0 +1,25 @@
+/*
+5. Tee ohjelma, jossa on funktio vertaile() johon viedään kaksi kokonaislukua. Tämä funktio
+vertailee niiden suuruutta ja tulostaa ne suuruusjärjestyksessä näytölle (suurin ensin).
+*/
+
+#include <stdio.h>
+
+int main() {
+    
+    void compareNumbers(int, int);
+    compareNumbers(1,5);
+    return 0;
+    
+}
+
+void compareNumbers(int number1, int number2) {
+    
+    if (number1 < number2) {
+        printf("%d\t %d", number2, number1);
+    }
+    
+    else {
+        printf("%d\t %d", number1, number2);
+    }
+}
